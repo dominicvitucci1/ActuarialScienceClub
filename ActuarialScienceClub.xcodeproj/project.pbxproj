@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F048958C1C9781D6003A9C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048958B1C9781D6003A9C86 /* AppDelegate.swift */; };
+		F048958E1C9781D6003A9C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048958D1C9781D6003A9C86 /* ViewController.swift */; };
+		F04895911C9781D6003A9C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F048958F1C9781D6003A9C86 /* Main.storyboard */; };
+		F04895931C9781D6003A9C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04895921C9781D6003A9C86 /* Assets.xcassets */; };
+		F04895961C9781D6003A9C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04895941C9781D6003A9C86 /* LaunchScreen.storyboard */; };
+		F04895A11C9781D6003A9C86 /* ActuarialScienceClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04895A01C9781D6003A9C86 /* ActuarialScienceClubTests.swift */; };
+		F04895AC1C9781D6003A9C86 /* ActuarialScienceClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04895AB1C9781D6003A9C86 /* ActuarialScienceClubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F048959D1C9781D6003A9C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04895801C9781D6003A9C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04895871C9781D6003A9C86;
+			remoteInfo = ActuarialScienceClub;
+		};
+		F04895A81C9781D6003A9C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04895801C9781D6003A9C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04895871C9781D6003A9C86;
+			remoteInfo = ActuarialScienceClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F04895881C9781D6003A9C86 /* ActuarialScienceClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActuarialScienceClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F048958B1C9781D6003A9C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F048958D1C9781D6003A9C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F04895901C9781D6003A9C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04895921C9781D6003A9C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04895951C9781D6003A9C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F04895971C9781D6003A9C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F048959C1C9781D6003A9C86 /* ActuarialScienceClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActuarialScienceClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04895A01C9781D6003A9C86 /* ActuarialScienceClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActuarialScienceClubTests.swift; sourceTree = "<group>"; };
+		F04895A21C9781D6003A9C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04895A71C9781D6003A9C86 /* ActuarialScienceClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActuarialScienceClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04895AB1C9781D6003A9C86 /* ActuarialScienceClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActuarialScienceClubUITests.swift; sourceTree = "<group>"; };
+		F04895AD1C9781D6003A9C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04895851C9781D6003A9C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04895991C9781D6003A9C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04895A41C9781D6003A9C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F048957F1C9781D6003A9C86 = {
+			isa = PBXGroup;
+			children = (
+				F048958A1C9781D6003A9C86 /* ActuarialScienceClub */,
+				F048959F1C9781D6003A9C86 /* ActuarialScienceClubTests */,
+				F04895AA1C9781D6003A9C86 /* ActuarialScienceClubUITests */,
+				F04895891C9781D6003A9C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04895891C9781D6003A9C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04895881C9781D6003A9C86 /* ActuarialScienceClub.app */,
+				F048959C1C9781D6003A9C86 /* ActuarialScienceClubTests.xctest */,
+				F04895A71C9781D6003A9C86 /* ActuarialScienceClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F048958A1C9781D6003A9C86 /* ActuarialScienceClub */ = {
+			isa = PBXGroup;
+			children = (
+				F048958B1C9781D6003A9C86 /* AppDelegate.swift */,
+				F048958D1C9781D6003A9C86 /* ViewController.swift */,
+				F048958F1C9781D6003A9C86 /* Main.storyboard */,
+				F04895921C9781D6003A9C86 /* Assets.xcassets */,
+				F04895941C9781D6003A9C86 /* LaunchScreen.storyboard */,
+				F04895971C9781D6003A9C86 /* Info.plist */,
+			);
+			path = ActuarialScienceClub;
+			sourceTree = "<group>";
+		};
+		F048959F1C9781D6003A9C86 /* ActuarialScienceClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				F04895A01C9781D6003A9C86 /* ActuarialScienceClubTests.swift */,
+				F04895A21C9781D6003A9C86 /* Info.plist */,
+			);
+			path = ActuarialScienceClubTests;
+			sourceTree = "<group>";
+		};
+		F04895AA1C9781D6003A9C86 /* ActuarialScienceClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F04895AB1C9781D6003A9C86 /* ActuarialScienceClubUITests.swift */,
+				F04895AD1C9781D6003A9C86 /* Info.plist */,
+			);
+			path = ActuarialScienceClubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04895871C9781D6003A9C86 /* ActuarialScienceClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04895B01C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClub" */;
+			buildPhases = (
+				F04895841C9781D6003A9C86 /* Sources */,
+				F04895851C9781D6003A9C86 /* Frameworks */,
+				F04895861C9781D6003A9C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActuarialScienceClub;
+			productName = ActuarialScienceClub;
+			productReference = F04895881C9781D6003A9C86 /* ActuarialScienceClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F048959B1C9781D6003A9C86 /* ActuarialScienceClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04895B31C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClubTests" */;
+			buildPhases = (
+				F04895981C9781D6003A9C86 /* Sources */,
+				F04895991C9781D6003A9C86 /* Frameworks */,
+				F048959A1C9781D6003A9C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F048959E1C9781D6003A9C86 /* PBXTargetDependency */,
+			);
+			name = ActuarialScienceClubTests;
+			productName = ActuarialScienceClubTests;
+			productReference = F048959C1C9781D6003A9C86 /* ActuarialScienceClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F04895A61C9781D6003A9C86 /* ActuarialScienceClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04895B61C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClubUITests" */;
+			buildPhases = (
+				F04895A31C9781D6003A9C86 /* Sources */,
+				F04895A41C9781D6003A9C86 /* Frameworks */,
+				F04895A51C9781D6003A9C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04895A91C9781D6003A9C86 /* PBXTargetDependency */,
+			);
+			name = ActuarialScienceClubUITests;
+			productName = ActuarialScienceClubUITests;
+			productReference = F04895A71C9781D6003A9C86 /* ActuarialScienceClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04895801C9781D6003A9C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dominic Vitucci";
+				TargetAttributes = {
+					F04895871C9781D6003A9C86 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F048959B1C9781D6003A9C86 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F04895871C9781D6003A9C86;
+					};
+					F04895A61C9781D6003A9C86 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F04895871C9781D6003A9C86;
+					};
+				};
+			};
+			buildConfigurationList = F04895831C9781D6003A9C86 /* Build configuration list for PBXProject "ActuarialScienceClub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F048957F1C9781D6003A9C86;
+			productRefGroup = F04895891C9781D6003A9C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04895871C9781D6003A9C86 /* ActuarialScienceClub */,
+				F048959B1C9781D6003A9C86 /* ActuarialScienceClubTests */,
+				F04895A61C9781D6003A9C86 /* ActuarialScienceClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04895861C9781D6003A9C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04895961C9781D6003A9C86 /* LaunchScreen.storyboard in Resources */,
+				F04895931C9781D6003A9C86 /* Assets.xcassets in Resources */,
+				F04895911C9781D6003A9C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048959A1C9781D6003A9C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04895A51C9781D6003A9C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04895841C9781D6003A9C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048958E1C9781D6003A9C86 /* ViewController.swift in Sources */,
+				F048958C1C9781D6003A9C86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04895981C9781D6003A9C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04895A11C9781D6003A9C86 /* ActuarialScienceClubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04895A31C9781D6003A9C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04895AC1C9781D6003A9C86 /* ActuarialScienceClubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F048959E1C9781D6003A9C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04895871C9781D6003A9C86 /* ActuarialScienceClub */;
+			targetProxy = F048959D1C9781D6003A9C86 /* PBXContainerItemProxy */;
+		};
+		F04895A91C9781D6003A9C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04895871C9781D6003A9C86 /* ActuarialScienceClub */;
+			targetProxy = F04895A81C9781D6003A9C86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F048958F1C9781D6003A9C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04895901C9781D6003A9C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F04895941C9781D6003A9C86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04895951C9781D6003A9C86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04895AE1C9781D6003A9C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F04895AF1C9781D6003A9C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F04895B11C9781D6003A9C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ActuarialScienceClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F04895B21C9781D6003A9C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ActuarialScienceClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F04895B41C9781D6003A9C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ActuarialScienceClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActuarialScienceClub.app/ActuarialScienceClub";
+			};
+			name = Debug;
+		};
+		F04895B51C9781D6003A9C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ActuarialScienceClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActuarialScienceClub.app/ActuarialScienceClub";
+			};
+			name = Release;
+		};
+		F04895B71C9781D6003A9C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ActuarialScienceClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ActuarialScienceClub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F04895B81C9781D6003A9C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ActuarialScienceClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ActuarialScienceClub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04895831C9781D6003A9C86 /* Build configuration list for PBXProject "ActuarialScienceClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04895AE1C9781D6003A9C86 /* Debug */,
+				F04895AF1C9781D6003A9C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04895B01C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04895B11C9781D6003A9C86 /* Debug */,
+				F04895B21C9781D6003A9C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F04895B31C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04895B41C9781D6003A9C86 /* Debug */,
+				F04895B51C9781D6003A9C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F04895B61C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04895B71C9781D6003A9C86 /* Debug */,
+				F04895B81C9781D6003A9C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04895801C9781D6003A9C86 /* Project object */;
+}
