@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F04895871C9781D6003A9C86"
+               BuildableName = "ActuarialScienceClub.app"
+               BlueprintName = "ActuarialScienceClub"
+               ReferencedContainer = "container:ActuarialScienceClub.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F048959B1C9781D6003A9C86"
+               BuildableName = "ActuarialScienceClubTests.xctest"
+               BlueprintName = "ActuarialScienceClubTests"
+               ReferencedContainer = "container:ActuarialScienceClub.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F04895A61C9781D6003A9C86"
+               BuildableName = "ActuarialScienceClubUITests.xctest"
+               BlueprintName = "ActuarialScienceClubUITests"
+               ReferencedContainer = "container:ActuarialScienceClub.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F04895871C9781D6003A9C86"
+            BuildableName = "ActuarialScienceClub.app"
+            BlueprintName = "ActuarialScienceClub"
+            ReferencedContainer = "container:ActuarialScienceClub.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F04895871C9781D6003A9C86"
+            BuildableName = "ActuarialScienceClub.app"
+            BlueprintName = "ActuarialScienceClub"
+            ReferencedContainer = "container:ActuarialScienceClub.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F04895871C9781D6003A9C86"
+            BuildableName = "ActuarialScienceClub.app"
+            BlueprintName = "ActuarialScienceClub"
+            ReferencedContainer = "container:ActuarialScienceClub.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

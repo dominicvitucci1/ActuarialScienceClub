@@ -1,25 +1,144 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cID-z7-jHv">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ActuarialScienceClub" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_bg" translatesAutoresizingMaskIntoConstraints="NO" id="OGH-64-F22">
+                                <rect key="frame" x="-235" y="0.0" width="1022" height="546"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VD3-oC-e7M" userLabel="Events">
+                                <rect key="frame" x="0.0" y="0.0" width="525" height="120"/>
+                                <state key="normal" backgroundImage="Events"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qw-rn-Ty2" userLabel="Board">
+                                <rect key="frame" x="0.0" y="120" width="525" height="120"/>
+                                <state key="normal" backgroundImage="Board"/>
+                                <connections>
+                                    <segue destination="zPo-yK-pn2" kind="show" identifier="board" id="Gpf-UT-4kf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78b-RV-cZs" userLabel="Cube">
+                                <rect key="frame" x="0.0" y="240" width="525" height="120"/>
+                                <state key="normal" backgroundImage="Cube"/>
+                                <connections>
+                                    <segue destination="zPo-yK-pn2" kind="show" identifier="cube" id="fXP-UF-XSf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hz4-YU-IEd" userLabel="Website">
+                                <rect key="frame" x="0.0" y="360" width="525" height="120"/>
+                                <state key="normal" backgroundImage="Website"/>
+                                <connections>
+                                    <segue destination="zPo-yK-pn2" kind="show" identifier="website" id="fps-d0-T84"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="78b-RV-cZs" firstAttribute="top" secondItem="3qw-rn-Ty2" secondAttribute="bottom" id="0Yp-am-BmD"/>
+                            <constraint firstItem="Hz4-YU-IEd" firstAttribute="top" secondItem="78b-RV-cZs" secondAttribute="bottom" id="0e8-QW-dnf"/>
+                            <constraint firstItem="Hz4-YU-IEd" firstAttribute="height" secondItem="VD3-oC-e7M" secondAttribute="height" id="2BU-IE-zPU"/>
+                            <constraint firstItem="OGH-64-F22" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5RA-cU-qGe"/>
+                            <constraint firstAttribute="trailing" secondItem="OGH-64-F22" secondAttribute="trailing" constant="-187" id="9em-Ru-SRn"/>
+                            <constraint firstItem="VD3-oC-e7M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="A9x-WW-FX9"/>
+                            <constraint firstItem="3qw-rn-Ty2" firstAttribute="width" secondItem="VD3-oC-e7M" secondAttribute="width" id="AmO-gp-o0U"/>
+                            <constraint firstItem="78b-RV-cZs" firstAttribute="width" secondItem="VD3-oC-e7M" secondAttribute="width" id="KOC-gZ-05M"/>
+                            <constraint firstItem="78b-RV-cZs" firstAttribute="height" secondItem="VD3-oC-e7M" secondAttribute="height" id="Otn-Oe-22u"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hz4-YU-IEd" secondAttribute="bottom" constant="56" id="PPK-ae-n8l"/>
+                            <constraint firstItem="Hz4-YU-IEd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Res-gP-LzY"/>
+                            <constraint firstAttribute="trailing" secondItem="VD3-oC-e7M" secondAttribute="trailing" constant="75" id="SKM-ep-388"/>
+                            <constraint firstItem="3qw-rn-Ty2" firstAttribute="top" secondItem="VD3-oC-e7M" secondAttribute="bottom" id="d1v-QX-edH"/>
+                            <constraint firstAttribute="trailing" secondItem="3qw-rn-Ty2" secondAttribute="trailing" constant="75" id="eLO-fP-vOe"/>
+                            <constraint firstItem="OGH-64-F22" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-235" id="fzF-Au-caG"/>
+                            <constraint firstAttribute="trailing" secondItem="78b-RV-cZs" secondAttribute="trailing" constant="75" id="hju-3A-e0H"/>
+                            <constraint firstItem="3qw-rn-Ty2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hzc-Zw-47x"/>
+                            <constraint firstAttribute="trailing" secondItem="Hz4-YU-IEd" secondAttribute="trailing" constant="75" id="lUB-Cf-Yc3"/>
+                            <constraint firstItem="Hz4-YU-IEd" firstAttribute="width" secondItem="VD3-oC-e7M" secondAttribute="width" id="r3f-Wg-1WP"/>
+                            <constraint firstItem="3qw-rn-Ty2" firstAttribute="height" secondItem="VD3-oC-e7M" secondAttribute="height" id="rQE-x6-pE6"/>
+                            <constraint firstItem="78b-RV-cZs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uso-Yh-VN5"/>
+                            <constraint firstAttribute="bottom" secondItem="OGH-64-F22" secondAttribute="bottom" constant="-10" id="yGe-ud-JTa"/>
+                            <constraint firstItem="VD3-oC-e7M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="z76-r9-Yps"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Xl0-Z0-PWo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1109" y="433"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="KN2-wo-IPD">
+            <objects>
+                <viewController id="zPo-yK-pn2" customClass="WebViewController" customModule="ActuarialScienceClub" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="joR-yG-dsw"/>
+                        <viewControllerLayoutGuide type="bottom" id="E69-9a-GOx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UPJ-bE-7k0">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jWP-Cd-LnH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </webView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="jWP-Cd-LnH" firstAttribute="leading" secondItem="UPJ-bE-7k0" secondAttribute="leading" id="Ri1-JK-VCU"/>
+                            <constraint firstItem="E69-9a-GOx" firstAttribute="top" secondItem="jWP-Cd-LnH" secondAttribute="bottom" id="WV2-tv-dUe"/>
+                            <constraint firstAttribute="trailing" secondItem="jWP-Cd-LnH" secondAttribute="trailing" id="eO8-by-ENi"/>
+                            <constraint firstItem="jWP-Cd-LnH" firstAttribute="centerY" secondItem="UPJ-bE-7k0" secondAttribute="centerY" id="lQy-F1-1N7"/>
+                            <constraint firstItem="jWP-Cd-LnH" firstAttribute="centerX" secondItem="UPJ-bE-7k0" secondAttribute="centerX" id="qIy-Qu-PrL"/>
+                            <constraint firstItem="jWP-Cd-LnH" firstAttribute="top" secondItem="joR-yG-dsw" secondAttribute="bottom" id="wzG-av-v87"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myWebView" destination="jWP-Cd-LnH" id="Ld0-5s-OLe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dHf-GO-oOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1109" y="1150"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CAc-Q5-ndt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cID-z7-jHv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="q8Z-A9-kGM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pjD-Ma-lgK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pDe-27-fYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="433"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Board" width="850" height="375"/>
+        <image name="Cube" width="850" height="375"/>
+        <image name="Events" width="850" height="375"/>
+        <image name="Website" width="850" height="375"/>
+        <image name="new_bg" width="1022" height="768"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="fXP-UF-XSf"/>
+    </inferredMetricsTieBreakers>
 </document>

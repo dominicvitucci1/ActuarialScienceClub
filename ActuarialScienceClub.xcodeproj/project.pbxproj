@@ -14,6 +14,13 @@
 		F04895961C9781D6003A9C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04895941C9781D6003A9C86 /* LaunchScreen.storyboard */; };
 		F04895A11C9781D6003A9C86 /* ActuarialScienceClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04895A01C9781D6003A9C86 /* ActuarialScienceClubTests.swift */; };
 		F04895AC1C9781D6003A9C86 /* ActuarialScienceClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04895AB1C9781D6003A9C86 /* ActuarialScienceClubUITests.swift */; };
+		F0C228481CAF020900BB22B3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C228471CAF020900BB22B3 /* WebViewController.swift */; };
+		F0ECD2DB1CAF1108003B6345 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2DA1CAF1108003B6345 /* libicucore.tbd */; };
+		F0ECD2DD1CAF1116003B6345 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2DC1CAF1116003B6345 /* libc++.tbd */; };
+		F0ECD2DF1CAF111E003B6345 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2DE1CAF111E003B6345 /* CFNetwork.framework */; };
+		F0ECD2E11CAF1126003B6345 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2E01CAF1126003B6345 /* Security.framework */; };
+		F0ECD2E31CAF112E003B6345 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2E21CAF112E003B6345 /* SystemConfiguration.framework */; };
+		F0ECD2E51CAF113D003B6345 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2E41CAF113D003B6345 /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		F04895A71C9781D6003A9C86 /* ActuarialScienceClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActuarialScienceClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04895AB1C9781D6003A9C86 /* ActuarialScienceClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActuarialScienceClubUITests.swift; sourceTree = "<group>"; };
 		F04895AD1C9781D6003A9C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C228471CAF020900BB22B3 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F0ECD2DA1CAF1108003B6345 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F0ECD2DC1CAF1116003B6345 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F0ECD2DE1CAF111E003B6345 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F0ECD2E01CAF1126003B6345 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F0ECD2E21CAF112E003B6345 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F0ECD2E41CAF113D003B6345 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0ECD2E31CAF112E003B6345 /* SystemConfiguration.framework in Frameworks */,
+				F0ECD2E51CAF113D003B6345 /* Firebase.framework in Frameworks */,
+				F0ECD2E11CAF1126003B6345 /* Security.framework in Frameworks */,
+				F0ECD2DF1CAF111E003B6345 /* CFNetwork.framework in Frameworks */,
+				F0ECD2DD1CAF1116003B6345 /* libc++.tbd in Frameworks */,
+				F0ECD2DB1CAF1108003B6345 /* libicucore.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +97,7 @@
 		F048957F1C9781D6003A9C86 = {
 			isa = PBXGroup;
 			children = (
+				F0ECD2E61CAF1141003B6345 /* Frameworks */,
 				F048958A1C9781D6003A9C86 /* ActuarialScienceClub */,
 				F048959F1C9781D6003A9C86 /* ActuarialScienceClubTests */,
 				F04895AA1C9781D6003A9C86 /* ActuarialScienceClubUITests */,
@@ -100,6 +121,7 @@
 				F048958B1C9781D6003A9C86 /* AppDelegate.swift */,
 				F048958D1C9781D6003A9C86 /* ViewController.swift */,
 				F048958F1C9781D6003A9C86 /* Main.storyboard */,
+				F0C228471CAF020900BB22B3 /* WebViewController.swift */,
 				F04895921C9781D6003A9C86 /* Assets.xcassets */,
 				F04895941C9781D6003A9C86 /* LaunchScreen.storyboard */,
 				F04895971C9781D6003A9C86 /* Info.plist */,
@@ -123,6 +145,19 @@
 				F04895AD1C9781D6003A9C86 /* Info.plist */,
 			);
 			path = ActuarialScienceClubUITests;
+			sourceTree = "<group>";
+		};
+		F0ECD2E61CAF1141003B6345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0ECD2E41CAF113D003B6345 /* Firebase.framework */,
+				F0ECD2E21CAF112E003B6345 /* SystemConfiguration.framework */,
+				F0ECD2E01CAF1126003B6345 /* Security.framework */,
+				F0ECD2DE1CAF111E003B6345 /* CFNetwork.framework */,
+				F0ECD2DC1CAF1116003B6345 /* libc++.tbd */,
+				F0ECD2DA1CAF1108003B6345 /* libicucore.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +228,7 @@
 				TargetAttributes = {
 					F04895871C9781D6003A9C86 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 47Q8HR9LV3;
 					};
 					F048959B1C9781D6003A9C86 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -258,6 +294,7 @@
 			files = (
 				F048958E1C9781D6003A9C86 /* ViewController.swift in Sources */,
 				F048958C1C9781D6003A9C86 /* AppDelegate.swift in Sources */,
+				F0C228481CAF020900BB22B3 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -387,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,7 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ActuarialScienceClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +453,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ActuarialScienceClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +533,7 @@
 				F04895B21C9781D6003A9C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F04895B31C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClubTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +542,7 @@
 				F04895B51C9781D6003A9C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F04895B61C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClubUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +551,7 @@
 				F04895B81C9781D6003A9C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
