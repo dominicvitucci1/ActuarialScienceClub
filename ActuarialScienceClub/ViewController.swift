@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        navigationItem.titleView = UIImageView(image: UIImage(named: "Top-Bar-Test"))
+        //navigationItem.titleView = UIImageView(image: UIImage(named: "Top-Bar-Test"))
     }
 
     override func didReceiveMemoryWarning() {

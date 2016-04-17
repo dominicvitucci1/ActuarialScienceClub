@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6E0433A1CC046A6005DC6B4 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E043391CC046A6005DC6B4 /* EventsTableViewController.swift */; };
+		B6E0433C1CC0472D005DC6B4 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0433B1CC0472D005DC6B4 /* Events.swift */; };
+		B6E0433E1CC0AA6D005DC6B4 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0433D1CC0AA6D005DC6B4 /* Section.swift */; };
+		B6E043401CC0AACF005DC6B4 /* SectionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0433F1CC0AACF005DC6B4 /* SectionsData.swift */; };
+		B6E043421CC2A1B1005DC6B4 /* eventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E043411CC2A1B1005DC6B4 /* eventCell.swift */; };
+		B6E043451CC3C65B005DC6B4 /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E043441CC3C65B005DC6B4 /* OneSignal.framework */; };
 		F048958C1C9781D6003A9C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048958B1C9781D6003A9C86 /* AppDelegate.swift */; };
 		F048958E1C9781D6003A9C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048958D1C9781D6003A9C86 /* ViewController.swift */; };
 		F04895911C9781D6003A9C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F048958F1C9781D6003A9C86 /* Main.storyboard */; };
@@ -41,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6E043391CC046A6005DC6B4 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		B6E0433B1CC0472D005DC6B4 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		B6E0433D1CC0AA6D005DC6B4 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		B6E0433F1CC0AACF005DC6B4 /* SectionsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsData.swift; sourceTree = "<group>"; };
+		B6E043411CC2A1B1005DC6B4 /* eventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = eventCell.swift; path = ../eventCell.swift; sourceTree = "<group>"; };
+		B6E043441CC3C65B005DC6B4 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSignal.framework; sourceTree = "<group>"; };
+		B6E043471CC3C783005DC6B4 /* ActuarialScienceClub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActuarialScienceClub-Bridging-Header.h"; sourceTree = "<group>"; };
 		F04895881C9781D6003A9C86 /* ActuarialScienceClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActuarialScienceClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F048958B1C9781D6003A9C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F048958D1C9781D6003A9C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +85,7 @@
 				F0ECD2E51CAF113D003B6345 /* Firebase.framework in Frameworks */,
 				F0ECD2E11CAF1126003B6345 /* Security.framework in Frameworks */,
 				F0ECD2DF1CAF111E003B6345 /* CFNetwork.framework in Frameworks */,
+				B6E043451CC3C65B005DC6B4 /* OneSignal.framework in Frameworks */,
 				F0ECD2DD1CAF1116003B6345 /* libc++.tbd in Frameworks */,
 				F0ECD2DB1CAF1108003B6345 /* libicucore.tbd in Frameworks */,
 			);
@@ -94,6 +108,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6E043431CC3C3CA005DC6B4 /* EventHelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0433B1CC0472D005DC6B4 /* Events.swift */,
+				B6E043411CC2A1B1005DC6B4 /* eventCell.swift */,
+				B6E0433D1CC0AA6D005DC6B4 /* Section.swift */,
+				B6E0433F1CC0AACF005DC6B4 /* SectionsData.swift */,
+			);
+			name = EventHelperClasses;
+			sourceTree = "<group>";
+		};
 		F048957F1C9781D6003A9C86 = {
 			isa = PBXGroup;
 			children = (
@@ -120,8 +145,11 @@
 			children = (
 				F048958B1C9781D6003A9C86 /* AppDelegate.swift */,
 				F048958D1C9781D6003A9C86 /* ViewController.swift */,
-				F048958F1C9781D6003A9C86 /* Main.storyboard */,
+				B6E043391CC046A6005DC6B4 /* EventsTableViewController.swift */,
+				B6E043431CC3C3CA005DC6B4 /* EventHelperClasses */,
 				F0C228471CAF020900BB22B3 /* WebViewController.swift */,
+				F048958F1C9781D6003A9C86 /* Main.storyboard */,
+				B6E043471CC3C783005DC6B4 /* ActuarialScienceClub-Bridging-Header.h */,
 				F04895921C9781D6003A9C86 /* Assets.xcassets */,
 				F04895941C9781D6003A9C86 /* LaunchScreen.storyboard */,
 				F04895971C9781D6003A9C86 /* Info.plist */,
@@ -156,6 +184,7 @@
 				F0ECD2DE1CAF111E003B6345 /* CFNetwork.framework */,
 				F0ECD2DC1CAF1116003B6345 /* libc++.tbd */,
 				F0ECD2DA1CAF1108003B6345 /* libicucore.tbd */,
+				B6E043441CC3C65B005DC6B4 /* OneSignal.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,6 +258,11 @@
 					F04895871C9781D6003A9C86 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 47Q8HR9LV3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					F048959B1C9781D6003A9C86 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -292,9 +326,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E043401CC0AACF005DC6B4 /* SectionsData.swift in Sources */,
 				F048958E1C9781D6003A9C86 /* ViewController.swift in Sources */,
 				F048958C1C9781D6003A9C86 /* AppDelegate.swift in Sources */,
+				B6E0433A1CC046A6005DC6B4 /* EventsTableViewController.swift in Sources */,
+				B6E043421CC2A1B1005DC6B4 /* eventCell.swift in Sources */,
+				B6E0433E1CC0AA6D005DC6B4 /* Section.swift in Sources */,
 				F0C228481CAF020900BB22B3 /* WebViewController.swift in Sources */,
+				B6E0433C1CC0472D005DC6B4 /* Events.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,8 +483,10 @@
 				INFOPLIST_FILE = ActuarialScienceClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Dominic/Documents/ActuarialScienceClub/ActuarialScienceClub/ActuarialScienceClub-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -461,8 +502,10 @@
 				INFOPLIST_FILE = ActuarialScienceClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Dominic/Documents/ActuarialScienceClub/ActuarialScienceClub/ActuarialScienceClub-Bridging-Header.h";
 			};
 			name = Release;
 		};
