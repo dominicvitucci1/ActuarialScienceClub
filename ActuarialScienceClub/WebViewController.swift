@@ -64,9 +64,10 @@ class WebViewController: UIViewController, UIWebViewDelegate {
         
         else {
             
-            let myRootRef = Firebase(url:"https://uiucacturarial.firebaseio.com/htmlData")
+            let myRootRef = FIRDatabase.database().reference()
             myRootRef.observeEventType(.Value, withBlock: { snapshot in
-                let htmlPath = snapshot.value as! String
+                print(snapshot.value)
+                let htmlPath = snapshot.value!["htmlData"] as! String
                 self.myWebView.loadHTMLString(htmlPath, baseURL: nil)
                 //print(snapshot.value)
                 }, withCancelBlock: { error in

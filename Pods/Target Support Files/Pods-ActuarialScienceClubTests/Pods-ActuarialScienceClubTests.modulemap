@@ -1,0 +1,6 @@
+framework module Pods_ActuarialScienceClubTests {
+  umbrella header "Pods-ActuarialScienceClubTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

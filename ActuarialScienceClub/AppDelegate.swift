@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        // Use Firebase library to configure APIs
+        FIRApp.configure()
         
         _ = OneSignal(launchOptions: launchOptions, appId: "fd25dd36-2e1e-4df2-b50f-65c620f61514") { (message, additionalData, isActive) in
             NSLog("OneSignal Notification opened:\nMessage: %@", message)

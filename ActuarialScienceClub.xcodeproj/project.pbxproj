@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B30F1677AD82A558BC5F8A /* Pods_ActuarialScienceClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36421943457E5E2C5A93B10B /* Pods_ActuarialScienceClub.framework */; };
+		B61399C11CFB888B00FF4915 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B61399C01CFB888B00FF4915 /* GoogleService-Info.plist */; };
 		B6E0433A1CC046A6005DC6B4 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E043391CC046A6005DC6B4 /* EventsTableViewController.swift */; };
 		B6E0433C1CC0472D005DC6B4 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0433B1CC0472D005DC6B4 /* Events.swift */; };
 		B6E0433E1CC0AA6D005DC6B4 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0433D1CC0AA6D005DC6B4 /* Section.swift */; };
 		B6E043401CC0AACF005DC6B4 /* SectionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0433F1CC0AACF005DC6B4 /* SectionsData.swift */; };
 		B6E043421CC2A1B1005DC6B4 /* eventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E043411CC2A1B1005DC6B4 /* eventCell.swift */; };
 		B6E043451CC3C65B005DC6B4 /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E043441CC3C65B005DC6B4 /* OneSignal.framework */; };
+		B79ED7772CC5055A02BDCFAE /* Pods_ActuarialScienceClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DAFD2692B602A7ADE56810 /* Pods_ActuarialScienceClubUITests.framework */; };
+		E9C0573F71BDFA595F744883 /* Pods_ActuarialScienceClubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8CB94444A429EC9CDE7913 /* Pods_ActuarialScienceClubTests.framework */; };
 		F048958C1C9781D6003A9C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048958B1C9781D6003A9C86 /* AppDelegate.swift */; };
 		F048958E1C9781D6003A9C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048958D1C9781D6003A9C86 /* ViewController.swift */; };
 		F04895911C9781D6003A9C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F048958F1C9781D6003A9C86 /* Main.storyboard */; };
@@ -26,7 +30,6 @@
 		F0ECD2DF1CAF111E003B6345 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2DE1CAF111E003B6345 /* CFNetwork.framework */; };
 		F0ECD2E11CAF1126003B6345 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2E01CAF1126003B6345 /* Security.framework */; };
 		F0ECD2E31CAF112E003B6345 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2E21CAF112E003B6345 /* SystemConfiguration.framework */; };
-		F0ECD2E51CAF113D003B6345 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ECD2E41CAF113D003B6345 /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B06AF87365654930E9B5E7F /* Pods-ActuarialScienceClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActuarialScienceClubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActuarialScienceClubUITests/Pods-ActuarialScienceClubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36421943457E5E2C5A93B10B /* Pods_ActuarialScienceClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActuarialScienceClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3698A0454DF574F98224BAFD /* Pods-ActuarialScienceClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActuarialScienceClubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActuarialScienceClubTests/Pods-ActuarialScienceClubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41084DD8FA72EB3A708656C2 /* Pods-ActuarialScienceClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActuarialScienceClub.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActuarialScienceClub/Pods-ActuarialScienceClub.release.xcconfig"; sourceTree = "<group>"; };
+		65E845AA26F5D80FFEA3DB56 /* Pods-ActuarialScienceClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActuarialScienceClub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActuarialScienceClub/Pods-ActuarialScienceClub.debug.xcconfig"; sourceTree = "<group>"; };
+		81DAFD2692B602A7ADE56810 /* Pods_ActuarialScienceClubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActuarialScienceClubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E512F86F17A7D9421E3F659 /* Pods-ActuarialScienceClubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActuarialScienceClubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActuarialScienceClubUITests/Pods-ActuarialScienceClubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B61399C01CFB888B00FF4915 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6E043391CC046A6005DC6B4 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		B6E0433B1CC0472D005DC6B4 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		B6E0433D1CC0AA6D005DC6B4 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
@@ -54,6 +65,8 @@
 		B6E043411CC2A1B1005DC6B4 /* eventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = eventCell.swift; path = ../eventCell.swift; sourceTree = "<group>"; };
 		B6E043441CC3C65B005DC6B4 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSignal.framework; sourceTree = "<group>"; };
 		B6E043471CC3C783005DC6B4 /* ActuarialScienceClub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActuarialScienceClub-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCE78E3A46807B163D58184E /* Pods-ActuarialScienceClubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActuarialScienceClubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActuarialScienceClubTests/Pods-ActuarialScienceClubTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF8CB94444A429EC9CDE7913 /* Pods_ActuarialScienceClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActuarialScienceClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04895881C9781D6003A9C86 /* ActuarialScienceClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActuarialScienceClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F048958B1C9781D6003A9C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F048958D1C9781D6003A9C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +86,6 @@
 		F0ECD2DE1CAF111E003B6345 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F0ECD2E01CAF1126003B6345 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F0ECD2E21CAF112E003B6345 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F0ECD2E41CAF113D003B6345 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +94,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0ECD2E31CAF112E003B6345 /* SystemConfiguration.framework in Frameworks */,
-				F0ECD2E51CAF113D003B6345 /* Firebase.framework in Frameworks */,
 				F0ECD2E11CAF1126003B6345 /* Security.framework in Frameworks */,
 				F0ECD2DF1CAF111E003B6345 /* CFNetwork.framework in Frameworks */,
 				B6E043451CC3C65B005DC6B4 /* OneSignal.framework in Frameworks */,
 				F0ECD2DD1CAF1116003B6345 /* libc++.tbd in Frameworks */,
 				F0ECD2DB1CAF1108003B6345 /* libicucore.tbd in Frameworks */,
+				02B30F1677AD82A558BC5F8A /* Pods_ActuarialScienceClub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C0573F71BDFA595F744883 /* Pods_ActuarialScienceClubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79ED7772CC5055A02BDCFAE /* Pods_ActuarialScienceClubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +133,19 @@
 			name = EventHelperClasses;
 			sourceTree = "<group>";
 		};
+		B9A9294C0EEAC68BC3F7A042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65E845AA26F5D80FFEA3DB56 /* Pods-ActuarialScienceClub.debug.xcconfig */,
+				41084DD8FA72EB3A708656C2 /* Pods-ActuarialScienceClub.release.xcconfig */,
+				3698A0454DF574F98224BAFD /* Pods-ActuarialScienceClubTests.debug.xcconfig */,
+				BCE78E3A46807B163D58184E /* Pods-ActuarialScienceClubTests.release.xcconfig */,
+				8E512F86F17A7D9421E3F659 /* Pods-ActuarialScienceClubUITests.debug.xcconfig */,
+				1B06AF87365654930E9B5E7F /* Pods-ActuarialScienceClubUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F048957F1C9781D6003A9C86 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +154,7 @@
 				F048959F1C9781D6003A9C86 /* ActuarialScienceClubTests */,
 				F04895AA1C9781D6003A9C86 /* ActuarialScienceClubUITests */,
 				F04895891C9781D6003A9C86 /* Products */,
+				B9A9294C0EEAC68BC3F7A042 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +180,7 @@
 				B6E043471CC3C783005DC6B4 /* ActuarialScienceClub-Bridging-Header.h */,
 				F04895921C9781D6003A9C86 /* Assets.xcassets */,
 				F04895941C9781D6003A9C86 /* LaunchScreen.storyboard */,
+				B61399C01CFB888B00FF4915 /* GoogleService-Info.plist */,
 				F04895971C9781D6003A9C86 /* Info.plist */,
 			);
 			path = ActuarialScienceClub;
@@ -178,13 +207,15 @@
 		F0ECD2E61CAF1141003B6345 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0ECD2E41CAF113D003B6345 /* Firebase.framework */,
 				F0ECD2E21CAF112E003B6345 /* SystemConfiguration.framework */,
 				F0ECD2E01CAF1126003B6345 /* Security.framework */,
 				F0ECD2DE1CAF111E003B6345 /* CFNetwork.framework */,
 				F0ECD2DC1CAF1116003B6345 /* libc++.tbd */,
 				F0ECD2DA1CAF1108003B6345 /* libicucore.tbd */,
 				B6E043441CC3C65B005DC6B4 /* OneSignal.framework */,
+				36421943457E5E2C5A93B10B /* Pods_ActuarialScienceClub.framework */,
+				BF8CB94444A429EC9CDE7913 /* Pods_ActuarialScienceClubTests.framework */,
+				81DAFD2692B602A7ADE56810 /* Pods_ActuarialScienceClubUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F04895B01C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClub" */;
 			buildPhases = (
+				FCACC4712F4516E41C9DA95F /* 📦 Check Pods Manifest.lock */,
 				F04895841C9781D6003A9C86 /* Sources */,
 				F04895851C9781D6003A9C86 /* Frameworks */,
 				F04895861C9781D6003A9C86 /* Resources */,
+				61380469206BF785AC289A14 /* 📦 Embed Pods Frameworks */,
+				11ED29389600885FFE3B1342 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F04895B31C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClubTests" */;
 			buildPhases = (
+				53B40B907B3F1D8AAB5672FF /* 📦 Check Pods Manifest.lock */,
 				F04895981C9781D6003A9C86 /* Sources */,
 				F04895991C9781D6003A9C86 /* Frameworks */,
 				F048959A1C9781D6003A9C86 /* Resources */,
+				BC6801CA128D13B2A984C4AD /* 📦 Embed Pods Frameworks */,
+				05945C5AE79214CE90B0DE36 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F04895B61C9781D6003A9C86 /* Build configuration list for PBXNativeTarget "ActuarialScienceClubUITests" */;
 			buildPhases = (
+				4932A3D4CB3B439573FF2A63 /* 📦 Check Pods Manifest.lock */,
 				F04895A31C9781D6003A9C86 /* Sources */,
 				F04895A41C9781D6003A9C86 /* Frameworks */,
 				F04895A51C9781D6003A9C86 /* Resources */,
+				F02377E1D7DFC0E77D5A26CC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04895961C9781D6003A9C86 /* LaunchScreen.storyboard in Resources */,
+				B61399C11CFB888B00FF4915 /* GoogleService-Info.plist in Resources */,
 				F04895931C9781D6003A9C86 /* Assets.xcassets in Resources */,
 				F04895911C9781D6003A9C86 /* Main.storyboard in Resources */,
 			);
@@ -320,6 +360,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05945C5AE79214CE90B0DE36 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActuarialScienceClubTests/Pods-ActuarialScienceClubTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11ED29389600885FFE3B1342 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActuarialScienceClub/Pods-ActuarialScienceClub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4932A3D4CB3B439573FF2A63 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53B40B907B3F1D8AAB5672FF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61380469206BF785AC289A14 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActuarialScienceClub/Pods-ActuarialScienceClub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6801CA128D13B2A984C4AD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActuarialScienceClubTests/Pods-ActuarialScienceClubTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02377E1D7DFC0E77D5A26CC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActuarialScienceClubUITests/Pods-ActuarialScienceClubUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCACC4712F4516E41C9DA95F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F04895841C9781D6003A9C86 /* Sources */ = {
@@ -408,6 +571,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -426,7 +590,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,6 +617,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -473,6 +638,7 @@
 		};
 		F04895B11C9781D6003A9C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E845AA26F5D80FFEA3DB56 /* Pods-ActuarialScienceClub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -483,7 +649,11 @@
 				INFOPLIST_FILE = ActuarialScienceClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Dominic/Documents/ActuarialScienceClub/ActuarialScienceClub/ActuarialScienceClub-Bridging-Header.h";
@@ -492,6 +662,7 @@
 		};
 		F04895B21C9781D6003A9C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41084DD8FA72EB3A708656C2 /* Pods-ActuarialScienceClub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -502,7 +673,10 @@
 				INFOPLIST_FILE = ActuarialScienceClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dominicvitucci.ActuarialScienceClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Dominic/Documents/ActuarialScienceClub/ActuarialScienceClub/ActuarialScienceClub-Bridging-Header.h";
@@ -511,6 +685,7 @@
 		};
 		F04895B41C9781D6003A9C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3698A0454DF574F98224BAFD /* Pods-ActuarialScienceClubTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ActuarialScienceClubTests/Info.plist;
@@ -523,6 +698,7 @@
 		};
 		F04895B51C9781D6003A9C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE78E3A46807B163D58184E /* Pods-ActuarialScienceClubTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ActuarialScienceClubTests/Info.plist;
@@ -535,6 +711,7 @@
 		};
 		F04895B71C9781D6003A9C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E512F86F17A7D9421E3F659 /* Pods-ActuarialScienceClubUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ActuarialScienceClubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -547,6 +724,7 @@
 		};
 		F04895B81C9781D6003A9C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B06AF87365654930E9B5E7F /* Pods-ActuarialScienceClubUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ActuarialScienceClubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

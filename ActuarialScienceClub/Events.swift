@@ -39,14 +39,14 @@ class Events {
             let date                 = dateFormatter.dateFromString(dateString!)
             dateFormatter.dateFormat = "MMMM d, yyyy | hh:mm a"
             let resultString         = dateFormatter.stringFromDate(date!)
-            print(resultString) // October 9, 2015 | 05:41 PM
+            print(resultString) 
             timeFinal = resultString
         }
         else {
         print(date)
         dateFormatter.dateFormat = "MMMM d, yyyy | hh:mm a"
         let resultString         = dateFormatter.stringFromDate(date!)
-        print(resultString) // October 9, 2015 | 05:41 PM
+        print(resultString)
         timeFinal = resultString
         }
         
